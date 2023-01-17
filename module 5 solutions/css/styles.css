@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    font-family: 'Inconsolata', monospace;
+}
+html {
+    background-color: lightsalmon;
+    font-size: 16px;
+}
+#header-nav{
+    background-color: rgba(128, 0, 128, 0.644);
+    border-radius: 0;
+    border : 2px solid black;
+}
+.navbar-default .navbar-brand{
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.navbar-brand h1{ /* food llc name */
+    font-family: 'Lora', serif;
+    color: white;
+    font-size: 1.7em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+    margin-left: 15px;
+}
+.navbar-nav{
+    margin:0 -15px !important;
+  }
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+#nav-list{
+    border: 1px solid black;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1.5px solid black;
+}
+
+#menu-collapsable-nav #nav-list a{
+    color: black;
+    font-size: 1.7em;
+    font-weight: 600;
+    border: 1px solid black;
+}
+#menu-collapsable-nav #nav-list a:hover{
+    background-color: white;    
+}
+html body {
+    background-color: lightsalmon;
+}
+#cont{
+    background-color: rgba(119, 136, 153, 0.719);
+    margin-right: auto;
+    margin-left: auto;
+}
+.menu-head{
+    font-weight: 900;
+    margin-top: -6;
+}
+.menu-content{
+    margin-top: 40px;
+}
+.salad{
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 1.5em;
+    font-weight: bolder;
+    color: black;
+}
+.menu-item p{
+    font-weight: 700;
+    font-size: .9em;
+    margin-left: 15px;
+    padding: 5px 10px;
+    color: black;
+}
+.menu-item p a{
+    text-transform: none;
+    font-weight: bold;
+    color: brown;
+    font-size: 15px;
+}
+.menu-item p a:hover{
+    text-transform: uppercase;
+}
+@media (max-width:767px){
+    #cont{
+      width: 90%;
+      margin-right:auto;
+      margin-left:auto;
+      margin-bottom: 15px;
+    }
+    .menu-item p{
+      font-weight: 600;
+      font-size: 1em;
+      text-align:justify;
+    }
+}
